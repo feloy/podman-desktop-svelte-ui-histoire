@@ -4,9 +4,8 @@ const __resolved__virtual_storySource_srcStoriesButtonStorySvelte = `<script lan
   import '../dark.css';
   import '../light.css';
   import { Button } from '@podman-desktop/ui-svelte';
-  import { type IconDefinition, faPlay } from '@fortawesome/free-solid-svg-icons';
-
-  const schemes = ['dark-scheme', 'light-scheme'];
+  import { faPlay } from '@fortawesome/free-solid-svg-icons';
+    import { schemes } from './consts';
 
   let mode: 'dark-scheme' | 'light-scheme' = 'dark-scheme';
   let type: 'primary' | 'secondary' | 'danger' | 'link' | 'tab' = 'primary';

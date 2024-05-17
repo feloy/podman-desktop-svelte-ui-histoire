@@ -52,8 +52,16 @@
       "docsOnly": false,
       "variants": [
         {
-          "id": "_default",
-          "title": "default"
+          "id": "src-stories-input-story-svelte-0",
+          "title": "Input",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-stories-input-story-svelte-1",
+          "title": "Sandbox",
+          "icon": null,
+          "iconColor": null
         }
       ],
       "relativePath": "src/stories/Input.story.svelte",
