@@ -384,15 +384,17 @@
   resolved "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@podman-desktop/ui-svelte@0.0.202405131419-17d4db0":
-  version "0.0.202405131419-17d4db0"
-  resolved "https://registry.yarnpkg.com/@podman-desktop/ui-svelte/-/ui-svelte-0.0.202405131419-17d4db0.tgz#af96250dd9e3205cc547d98237f038566c41891c"
-  integrity sha512-8Psx2TxEwSGsmxg/gnIDzzKIoSUKJyrE3kASady5ZywzUtHTaEhZQrK1PZKMstqtABIdqrF28tcw9SvAekKRpQ==
+"@podman-desktop/ui-svelte@0.0.202405160947-75e773a":
+  version "0.0.202405160947-75e773a"
+  resolved "https://registry.yarnpkg.com/@podman-desktop/ui-svelte/-/ui-svelte-0.0.202405160947-75e773a.tgz#426ec6f5be72a032afd2b391a37bac5384a2e727"
+  integrity sha512-saXgBuC8IR8t5hRBEQ0SQhZG7Cig62wnpSPo0deGxe2Us8QX4uqHEiIOxeivpPtNjvKF4+xYRgZejqilpYyN4g==
   dependencies:
     "@fortawesome/fontawesome-free" "^6.5.2"
     "@fortawesome/free-brands-svg-icons" "^6.5.2"
     "@fortawesome/free-regular-svg-icons" "^6.5.2"
     "@fortawesome/free-solid-svg-icons" "^6.5.2"
+    humanize-duration "^3.32.0"
+    moment "^2.30.1"
     svelte-fa "^4.0.2"
 
 "@polka/url@^1.0.0-next.24":
@@ -1392,6 +1394,11 @@ https-proxy-agent@^5.0.1:
     agent-base "6"
     debug "4"
 
+humanize-duration@^3.32.0:
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/humanize-duration/-/humanize-duration-3.32.0.tgz#b25f64ef55d723b049b197b6b4aa3c96c202b6c9"
+  integrity sha512-6WsXYTHJr7hXKqoqf5zoWza/lANRAqGlbnZnm0cjDykbXuez1JVXOQGmq0EPB45pXYAJyueRA3S3hfhmMbrMEQ==
+
 iconv-lite@0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
@@ -1721,6 +1728,11 @@ mlly@^1.4.0, mlly@^1.7.0:
     pathe "^1.1.2"
     pkg-types "^1.1.0"
     ufo "^1.5.3"
+
+moment@^2.30.1:
+  version "2.30.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
+  integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
 
 mri@^1.1.0:
   version "1.2.0"

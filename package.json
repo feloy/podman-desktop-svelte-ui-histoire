@@ -24,6 +24,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@podman-desktop/ui-svelte": "0.0.202405131419-17d4db0"
+		"@podman-desktop/ui-svelte": "0.0.202405160947-75e773a"
 	}
 }
