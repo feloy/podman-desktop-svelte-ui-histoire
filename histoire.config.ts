@@ -6,5 +6,8 @@ export default defineConfig({
     HstSvelte(),
   ],
   setupFile: '/histoire-setup.ts',
+  vite: {
+		base: '/podman-desktop-svelte-ui-histoire/',
+	},
 });
 

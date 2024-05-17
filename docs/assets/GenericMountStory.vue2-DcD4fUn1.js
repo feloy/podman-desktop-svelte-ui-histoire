@@ -1,8 +1,8 @@
-const __vite__fileDeps=["assets/HomeView.vue-DwQQPHdQ.js","assets/story-CbhgyyJI.js","assets/vendor-C3ArDVsh.js","assets/StoryView.vue-Crylscu_.js","assets/MobileOverlay.vue2-BJqaJ_Au.js","assets/BaseEmpty.vue-_icWKIsv.js","assets/state-D5S9oOVZ.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import { S as SvelteComponentDev, Q as init, R as dispatch_dev, U as safe_not_equal, V as validate_slots, W as Button, X as binding_callbacks, Y as bind, Z as create_component, _ as claim_component, $ as mount_component, a0 as transition_in, a1 as transition_out, a2 as destroy_component, a3 as element, a4 as claim_element, a5 as children, a6 as detach_dev, a7 as attr_dev, a8 as add_location, a9 as insert_hydration_dev, aa as space, ab as claim_space, ac as add_flush_callback, ad as text, ae as claim_text, af as Input, ag as Comp2, ah as Logo_square, ai as Logo_dark, aj as createRouter, ak as createWebHistory, al as createWebHashHistory, am as useDark, an as useToggle, k as watch, ao as markRaw, E as reactive, d as defineComponent, r as ref, ap as watchEffect, o as openBlock, q as createBlock, aq as mergeProps, ar as resolveDynamicComponent, h as createCommentVNode } from "./vendor-C3ArDVsh.js";
+const __vite__fileDeps=["assets/HomeView.vue-Dk7LKp35.js","assets/story-SYJyKjdL.js","assets/vendor-CGnjTfPa.js","assets/StoryView.vue-Bqr3K3ai.js","assets/MobileOverlay.vue2-DQqvGAOi.js","assets/BaseEmpty.vue-CWNYcoFQ.js","assets/state-CmjX8kVr.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import { S as SvelteComponentDev, Q as init, R as dispatch_dev, U as safe_not_equal, V as validate_slots, W as Button, X as binding_callbacks, Y as bind, Z as create_component, _ as claim_component, $ as mount_component, a0 as transition_in, a1 as transition_out, a2 as destroy_component, a3 as element, a4 as claim_element, a5 as children, a6 as detach_dev, a7 as attr_dev, a8 as add_location, a9 as insert_hydration_dev, aa as space, ab as claim_space, ac as add_flush_callback, ad as text, ae as claim_text, af as Input, ag as Comp2, ah as Logo_square, ai as Logo_dark, aj as createRouter, ak as createWebHistory, al as createWebHashHistory, am as useDark, an as useToggle, k as watch, ao as markRaw, E as reactive, d as defineComponent, r as ref, ap as watchEffect, o as openBlock, q as createBlock, aq as mergeProps, ar as resolveDynamicComponent, h as createCommentVNode } from "./vendor-CGnjTfPa.js";
 const scriptRel = "modulepreload";
 const assetsURL = function(dep) {
-  return "/" + dep;
+  return "/podman-desktop-svelte-ui-histoire/" + dep;
 };
 const seen = {};
 const __vitePreload = function preload(baseModule, deps, importerUrl) {
@@ -763,7 +763,7 @@ const config = { "plugins": [{ "name": "builtin:tailwind-tokens" }, { "name": "b
 const logos = { square: Logo_square, light: Logo_dark, dark: Logo_dark };
 const histoireConfig = config;
 const customLogos = logos;
-const base = "/";
+const base = "/podman-desktop-svelte-ui-histoire/";
 function createRouterHistory() {
   switch (histoireConfig.routerMode) {
     case "hash":
@@ -779,12 +779,12 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: () => __vitePreload(() => import("./HomeView.vue-DwQQPHdQ.js"), true ? __vite__mapDeps([0,1,2]) : void 0)
+      component: () => __vitePreload(() => import("./HomeView.vue-Dk7LKp35.js"), true ? __vite__mapDeps([0,1,2]) : void 0)
     },
     {
       path: "/story/:storyId",
       name: "story",
-      component: () => __vitePreload(() => import("./StoryView.vue-Crylscu_.js"), true ? __vite__mapDeps([3,2,1,4,5,6]) : void 0)
+      component: () => __vitePreload(() => import("./StoryView.vue-Bqr3K3ai.js"), true ? __vite__mapDeps([3,2,1,4,5,6]) : void 0)
     }
   ]
 });
@@ -843,8 +843,8 @@ function mapVariant(variant, existingVariant) {
   return result;
 }
 const clientSupportPlugins = {
-  "vanilla": () => __vitePreload(() => import("./vendor-C3ArDVsh.js").then((n) => n.aW), true ? [] : void 0),
-  "svelte4": () => __vitePreload(() => import("./vendor-C3ArDVsh.js").then((n) => n.aX), true ? [] : void 0)
+  "vanilla": () => __vitePreload(() => import("./vendor-CGnjTfPa.js").then((n) => n.aW), true ? [] : void 0),
+  "svelte4": () => __vitePreload(() => import("./vendor-CGnjTfPa.js").then((n) => n.aX), true ? [] : void 0)
 };
 const __default__ = {
   inheritAttrs: false
