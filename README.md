@@ -2,6 +2,7 @@
 
 Storybook for Podman Desktop Svelte-UI package, using [Histoire](https://histoire.dev).
 
+https://feloy.github.io/podman-desktop-svelte-ui-histoire
 
 ## Developing
 
