@@ -11,4 +11,4 @@ yarn
 yarn story:dev
 ```
 
-Open http://localhost:6006/
+Open http://localhost:6006
