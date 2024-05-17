@@ -9,5 +9,6 @@ export default defineConfig({
   vite: {
 		base: '/podman-desktop-svelte-ui-histoire/',
 	},
+  routerMode: 'hash'
 });
 
